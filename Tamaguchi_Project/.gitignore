@@ -1,0 +1,91 @@
+# =========================
+# Unity project .gitignore
+# Keep: Assets, Packages, ProjectSettings
+# Ignore: generated, local, build, cache files
+# =========================
+
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE / editor files
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+
+# Unity generated crash / mono files
+sysinfo.txt
+mono_crash.*
+*.log
+
+# Auto-generated meta for generated files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Build outputs
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.unitypackage.meta
+
+# Crashlytics
+crashlytics-build.properties
+
+# Blender temp/import leftovers
+*.blend1
+*.blend1.meta
+
+# JetBrains Rider generated Unity plugin
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Addressables generated content
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting generated files
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Auto-generated test scenes
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# -------------------------
+# Project-specific ignores
+# -------------------------
+
+# Krita backup/temp file — do not commit
+*.kra~
+
+# Optional: ignore Krita source files if you only want exported PNGs committed
+# Uncomment the next line ONLY if you do NOT want .kra source files in git
+# *.kra
