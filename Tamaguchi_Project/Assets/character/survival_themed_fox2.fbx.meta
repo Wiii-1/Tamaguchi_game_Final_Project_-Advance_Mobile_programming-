@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: 9eac7e243915c267489adc63610c38cb
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|approval
+      takeName: Armature|approval
+      internalID: -534099596346081577
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|breathing
+      takeName: Armature|breathing
+      internalID: 208679936636702191
+      firstFrame: 0
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: survival_themed_fox2(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: survival_themed_fox2(Clone)
+      position: {x: 0, y: -0.34939182, z: -0.069855034}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone
+      parentName: Armature
+      position: {x: 0.00005839869, y: -0.00055621273, z: 0.002536039}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Bone.001
+      parentName: Bone
+      position: {x: -0, y: 0.0027366627, z: 0}
+      rotation: {x: 0.041779783, y: 0.000000038417056, z: 0.0068387957, w: 0.99910355}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Bone.002
+      parentName: Bone.001
+      position: {x: -3.6379786e-13, y: 0.0017447307, z: 5.230049e-11}
+      rotation: {x: -0.0013938284, y: -0.000016223372, z: 0.0026663581, w: 0.99999547}
+      scale: {x: 1, y: 1.0000012, z: 0.99999994}
+    - name: Bone.003
+      parentName: Bone.002
+      position: {x: 1.1568772e-11, y: 0.0012209823, z: 1.842693e-11}
+      rotation: {x: -0.04038741, y: -0.000000022348102, z: -0.009496536, w: 0.99913895}
+      scale: {x: 0.99999845, y: 0.9999987, z: 0.9999991}
+    - name: Bone.004
+      parentName: Armature
+      position: {x: 0.0010259773, y: -0.0007133991, z: 0.0026258947}
+      rotation: {x: -0.02134536, y: -0.70678455, z: 0.70678455, w: -0.021345126}
+      scale: {x: 0.9999999, y: 0.99999905, z: 1}
+    - name: Bone.005
+      parentName: Armature
+      position: {x: -0.0012146889, y: -0.0007133991, z: 0.0026258947}
+      rotation: {x: 0.0057606697, y: -0.70708334, z: 0.70708334, w: 0.0057607885}
+      scale: {x: 1.0000007, y: 1.0000005, z: 0.9999998}
+    - name: Bone.006
+      parentName: Armature
+      position: {x: 0.000527606, y: -0.00065450155, z: 0.0073264954}
+      rotation: {x: 0.08975243, y: 0.70138764, z: -0.7013875, w: 0.08975243}
+      scale: {x: 0.9999995, y: 0.9999997, z: 1}
+    - name: Bone.007
+      parentName: Bone.006
+      position: {x: -2.449826e-10, y: 0.0017447718, z: -2.9426524e-11}
+      rotation: {x: 0.030357944, y: 0.014210867, z: 0.24984564, w: -0.96770537}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Bone.008
+      parentName: Bone.007
+      position: {x: 2.537854e-10, y: 0.0017790701, z: -7.4505804e-11}
+      rotation: {x: 0.2191888, y: 0.0012276188, z: 0.22494479, w: 0.949397}
+      scale: {x: 1.0000046, y: 1.0000039, z: 0.9999997}
+    - name: Bone.009
+      parentName: Armature
+      position: {x: -0.000538999, y: -0.0007426006, z: 0.0073567615}
+      rotation: {x: 0.11347268, y: -0.70648813, z: 0.69538367, w: 0.06663434}
+      scale: {x: 1.0000017, y: 1.0000005, z: 1.0000013}
+    - name: Bone.010
+      parentName: Bone.009
+      position: {x: 3.8649886e-10, y: 0.0017476712, z: -9.6624715e-11}
+      rotation: {x: 0.0073262327, y: 0.013787397, z: 0.24637087, w: 0.9690499}
+      scale: {x: 1.0000006, y: 1.0000011, z: 0.9999986}
+    - name: Bone.011
+      parentName: Bone.010
+      position: {x: 7.916242e-11, y: 0.0017618618, z: -5.5879353e-11}
+      rotation: {x: 0.19690754, y: -0.08852507, z: -0.23623118, w: 0.9474099}
+      scale: {x: 1.0000019, y: 1.0000006, z: 1.0000001}
+    - name: Cube
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.001
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.002
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.003
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.004
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.005
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.006
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.007
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.008
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: NurbsPath
+      parentName: survival_themed_fox2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

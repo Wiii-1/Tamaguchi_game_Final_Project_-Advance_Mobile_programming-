@@ -51,6 +51,12 @@ Screenshots will be added as development progresses.
 - Start implementing the feeding flow
 - Prepare first testable Android prototype loop
 
+## Issues
+
+- if ever you have issues when cloned projects and open it in unity the main i ssue will be don't open the folder of the repositoy go deeper and open the Tamaguichi_project in unity hub to access our game project. 
+
+- if you ever found yourself dumbfounded and didn't see the actual game in the heirachy, in you explorer in unity go to Asset/scenes and add game scene on the heirachy
+
 ## Contributing
 Contributing guidelines will be added soon.
 

@@ -40,12 +40,9 @@ public class petStats : MonoBehaviour
         }
     }
 
-    public void FeedPet()
+    public void FeedPet(float hungerAmount, float happinessAmount)
     {
-        hunger = Mathf.Min(hunger + 20f, 100f);
-        happiness = Mathf.Min(happiness + 5f, 100f);
+        hunger = Mathf.Clamp(hunger + hungerAmount, 0f, 100f);
+        happiness = Mathf.Clamp(happiness + happinessAmount, 0f, 100f);
     }
-
-    
-
 }
