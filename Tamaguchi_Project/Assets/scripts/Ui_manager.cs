@@ -2,41 +2,51 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    [Header("Open This")]
+    [Header("Fridge")]
     [SerializeField] private GameObject fridgePanel;
 
-    [Header("Close These")]
-    [SerializeField] private GameObject coinPanel;
+    [Header("Main UI")]
     [SerializeField] private GameObject fridgeButton;
-    [SerializeField] private GameObject marketButton;
+
+    [Header("References")]
+    [SerializeField] private petStats petStats;
+
+
+    private bool uiLocked = false;
 
     private void Start()
     {
         CloseFridge();
     }
 
+    private void Update()
+    {
+        if (petStats != null && petStats.isDead && !uiLocked)
+        {
+            DisableAllUI();
+        }
+    }
+
     public void OpenFridge()
     {
-        SetUIState(true);
+        if (uiLocked) return;
+
+        if (fridgePanel != null) fridgePanel.SetActive(true);
+        if (fridgeButton != null) fridgeButton.SetActive(false);
     }
 
     public void CloseFridge()
     {
-        SetUIState(false);
+        if (uiLocked) return;
+
+        if (fridgePanel != null) fridgePanel.SetActive(false);
+        if (fridgeButton != null) fridgeButton.SetActive(true);
     }
 
-    private void SetUIState(bool fridgeOpen)
+    private void DisableAllUI()
     {
-        if (fridgePanel != null)
-            fridgePanel.SetActive(fridgeOpen);
+        uiLocked = true;
 
-        if (coinPanel != null)
-            coinPanel.SetActive(!fridgeOpen);
-
-        if (fridgeButton != null)
-            fridgeButton.SetActive(!fridgeOpen);
-
-        if (marketButton != null)
-            marketButton.SetActive(!fridgeOpen);
+        if (fridgePanel != null) fridgePanel.SetActive(false);
     }
 }
